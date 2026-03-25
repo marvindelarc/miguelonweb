@@ -662,63 +662,6 @@ h4 {
   font-weight: 700;
 }
 
-.carousel {
-  overflow: hidden;
-}
-.carousel-track {
-  width: 100%;
-  display: flex;
-  animation: scroll 40s linear infinite;
-}
-.carousel-c {
-  display: block;
-  flex: 0 0 25%;
-  padding: 5px;
-}
-@media (max-width: 1024px) {
-  .carousel-c {
-    flex: 0 0 25%;
-  }
-}
-@media (max-width: 768px) {
-  .carousel-c {
-    padding: 3px;
-    flex: 0 0 22%;
-  }
-}
-@media (max-width: 480px) {
-  .carousel-c {
-    flex: 0 0 45%;
-  }
-}
-.carousel-c img {
-  width: 100%;
-  height: 250px;
-}
-@media (max-width: 1024px) {
-  .carousel-c img {
-    height: 230px;
-  }
-}
-@media (max-width: 768px) {
-  .carousel-c img {
-    height: 160px;
-  }
-}
-@media (max-width: 480px) {
-  .carousel-c img {
-    height: 200px;
-  }
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
 .footer {
   background: #002a8d;
   color: #FFFFFF;
