@@ -642,6 +642,7 @@ h4 {
   border: none;
   padding: 10px;
   cursor: pointer;
+  font-size: 25px;
 }
 .slider .prev {
   left: 10px;
